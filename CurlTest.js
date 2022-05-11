@@ -6,10 +6,13 @@ const { curly } = require('node-libcurl');
 
 //API_KEY test
 const API_KEY = process.env.API_KEY_WEATHER;
+const ZIP = process.env.ZIP || 52776;
+const DAYS = process.env.DAYS || 7;
+
 console.log(API_KEY);
 
 //const { statusCode, data, headers } = await curly.get('http://www.google.com')
-myFunction(API_KEY,52776,8)
+myFunction(API_KEY,ZIP,DAYS)
 console.log("notBroken");
 
 
