@@ -1,3 +1,4 @@
+//need to add Docker stuff here.
 require('dotenv').config()
 const querystring = require("querystring");
 //curl functionality 

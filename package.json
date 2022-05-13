@@ -19,5 +19,6 @@
   "homepage": "https://github.com/mtena/WeatherCodeTest#readme",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {}
 }
