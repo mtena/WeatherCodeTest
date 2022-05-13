@@ -1,0 +1,23 @@
+{
+  "name": "weathercodetest",
+  "version": "1.0.0",
+  "description": "Need to setup .env with API_KEY_WEATHER, ZIP, and DAYS",
+  "main": "CurlTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtena/WeatherCodeTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtena/WeatherCodeTest/issues"
+  },
+  "homepage": "https://github.com/mtena/WeatherCodeTest#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
