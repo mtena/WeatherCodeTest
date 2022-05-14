@@ -29,23 +29,32 @@ async function myFunction(API_KEY,ZIP,DAYS) {
     const obj =JSON.parse(json);
     
     var actualNumOfDays=0
+
     var total_C = 0
+    var avg_temp_longC=[]
     var total_F = 0
+    var avg_temp_longF=[]
+
     var forecastday=obj.data.forecast.forecastday
-    //console.log(forecastday)
+    console.log(forecastday)
+
     for (var i =0; i<forecastday.length;i++) {
-        //console.log(forecastday[i].day);
+       
         total_C+=forecastday[i].day.avgtemp_c
-        //console.log(forecastday[i].day.avgtemp_c);
+        avg_temp_longC.push(forecastday[i].day.avgtemp_c)
+
+        total_F+=forecastday[i].day.avgtemp_f
+        avg_temp_longF.push(forecastday[i].day.avgtemp_f)
         actualNumOfDays++
     }
-  
-    // obj.data.forecast.forecastday
-    // console.log(JSON.stringify(key))
-    // actualNumOfDays++
+
     console.log(total_C)
     console.log(total_C/actualNumOfDays)
-    //console.log(obj.data.forecast);
+
+    console.log(total_F)
+    console.log(total_F/actualNumOfDays)
+
+    
     console.log(actualNumOfDays)
     test()  
     }
