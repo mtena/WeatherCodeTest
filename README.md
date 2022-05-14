@@ -3,11 +3,14 @@ WeatherCodeTest is a node express app that returns a JSON file
 
 i.e.http://localhost:3000 on a browser will return WeatherReport.JSON
 
-Requrements: Docker must be installed for container support 
+Requrements: 
+             Docker must be installed for container support 
              To run without docker Node with packages dotenv node-libcurl
+           
              IF using Windows
                 Both will ask for adminatrative permissions On Windows due to 
                 Docker will not run on windows home recommend Windows Pro or higher
+           
              If using linux 
                 Both will need adminatrative permissions to install and run 
                 Tested on REDHAT
