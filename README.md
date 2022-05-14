@@ -39,3 +39,5 @@ To run
         ALL
             in a browser go to http://localhost:3000 
             the response back will be a JSON file with weather info
+
+Project's docker functionalty was based on lession from freeCodeCamp.org https://www.youtube.com/watch?v=9zUHg7xjIqQ&t=3550s
