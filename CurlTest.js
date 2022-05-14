@@ -1,4 +1,8 @@
-//need to add Docker stuff here.
+/* 
+/   this file was used as scratch file I decide keep it as is. it was as helpfull in prototyping
+*/
+
+
 require('dotenv').config()
 const querystring = require("querystring");
 //curl functionality 
