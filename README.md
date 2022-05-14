@@ -42,6 +42,7 @@ To run
 
 
 Notes:
+
     modifying the .env vars and rebuilding is how you can change the curl parmas
     to modify parms on the fly open in an editter like VScode use command 
         docker run -v PATH_TO_APPREPO:/app  -v /app/node_modules -p 3000:3000   --name NAME_OF_YOUR_CONTAINER NAME_OF_YOUR_IMAGE
