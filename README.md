@@ -40,4 +40,12 @@ To run
             in a browser go to http://localhost:3000 
             the response back will be a JSON file with weather info
 
+
+Notes:
+    modifying the .env vars and rebuilding is how you can change the curl parmas
+    to modify parms on the fly open in an editter like VScode use command 
+        docker run -v PATH_TO_APPREPO:/app  -v /app/node_modules -p 3000:3000   --name NAME_OF_YOUR_CONTAINER NAME_OF_YOUR_IMAGE
+    and do ctrl+s this gets nodemon to restart node without rebuilding docker
+    
+
 Project's docker functionalty was based on lession from freeCodeCamp.org https://www.youtube.com/watch?v=9zUHg7xjIqQ&t=3550s
